@@ -8,5 +8,6 @@
    
 ## web安全部分
 
-- 表单重复提交
-   - [web请求攻击](https://github.com/liyanlong/blog/blob/master/web/security/1.1.md)
+- 站点本身
+   - [伪造请求攻击](https://github.com/liyanlong/blog/blob/master/web/security/1.1.md)
+   - [跨域站点攻击](https://github.com/liyanlong/blog/blob/master/web/security/1.2.md)
