@@ -12,6 +12,7 @@
   - [代理模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/代理模式.md)
   - [命令模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/命令模式.md)
   - [组合模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/组合模式.md)
+  - [模板方法模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/模板方法模式.md)
 
 ## web部分
 
