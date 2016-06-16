@@ -15,6 +15,7 @@
   - [模板方法模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/模板方法模式.md)
   - [享元模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/享元模式.md)
   - [职责链模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/职责链模式.md)
+  - [中介者模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/中介者模式.md)
 ## web部分
 
 - wen安全
