@@ -12,7 +12,7 @@
 
 - [js设计模式](./前端/js设计模式/README.md)
 - [npm](./前端/npm/README.md)
-- [webpack](./前端/webpack/README.md
+- [webpack](./前端/webpack/README.md)
 
 
 ## web部分
