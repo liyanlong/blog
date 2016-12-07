@@ -6,4 +6,4 @@
 - css-loader
 - style-loader
 - url-loader
-- 
+- babel-loader
