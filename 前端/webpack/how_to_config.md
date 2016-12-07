@@ -23,3 +23,5 @@
 | `output` | 输出配置 | object | &nbsp; |
 | `output.filename` | 输出文件名 | string | &nbsp; |
 | `output.path` | 输出路径(要求：absolute path)  | string | &nbsp; |
+| `output.chunkFilename` | 没有在入口文件定义，但却需要打包的文件  | string | &nbsp; |
+| `output.sourceMapFilename` | 根据入口文件生成的sourcemap文件  | string | &nbsp; |
