@@ -61,4 +61,4 @@ module.exports = {
 
 ## example
 
-- simple 
+- [simple](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
