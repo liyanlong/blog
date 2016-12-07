@@ -7,3 +7,6 @@
 - style-loader
 - url-loader
 - babel-loader
+
+
+### `css-loader`
