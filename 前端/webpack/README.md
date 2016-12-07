@@ -39,6 +39,7 @@ webpack  ./app.js app.bundle.js
 ```
 
 **官网实例**
+
 ![官网实例](https://dtinth.github.io/webpack-docs-images/usage/how-it-works.png)
 
 
