@@ -37,8 +37,16 @@ module.exports = {
   ,
   module: {
     loaders: [
-      
+      {
+        test: /\.css/,
+        // loader
+        loader: 'style-loader!css-loader',
+        loaders: ['style-loader', 'css-loader'],
+
+      }
     ]
   } 
 }
 ```
+
+[** more **](https://github.com/webpack/css-loader)
