@@ -25,3 +25,4 @@
 | `output.path` | 输出路径(要求：absolute path)  | string | &nbsp; |
 | `output.chunkFilename` | 没有在入口文件定义，但却需要打包的文件  | string | &nbsp; |
 | `output.sourceMapFilename` | 根据入口文件生成的sourcemap文件  | string | &nbsp; |
+| `output.library` | 如果配置libray, 输出 name 做为 library name  | string | &nbsp; |
