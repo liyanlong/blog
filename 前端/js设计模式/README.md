@@ -2,10 +2,10 @@
 - js 设计模式
 
   - [单例模式](./单例模式.md)
-  - [代理模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/代理模式.md)
-  - [命令模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/命令模式.md)
-  - [组合模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/组合模式.md)
-  - [模板方法模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/模板方法模式.md)
-  - [享元模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/享元模式.md)
-  - [职责链模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/职责链模式.md)
-  - [中介者模式](https://github.com/liyanlong/blog/blob/master/前端/js设计模式/中介者模式.md)
+  - [代理模式](./代理模式.md)
+  - [命令模式](./命令模式.md)
+  - [组合模式](./组合模式.md)
+  - [模板方法模式](./模板方法模式.md)
+  - [享元模式](./享元模式.md)
+  - [职责链模式](./职责链模式.md)
+  - [中介者模式](./中介者模式.md)
