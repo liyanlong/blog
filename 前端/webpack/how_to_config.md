@@ -11,7 +11,6 @@
       filename: "bundle.js"
   }
 }
-
 ```
 
 
