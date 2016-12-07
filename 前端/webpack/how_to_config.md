@@ -24,6 +24,7 @@
 | `module` | 模块配置 | object | &nbsp; |
 | `resolve` | 模块分解配置 | object | &nbsp; |
 | `plugins` | 插件配置 | object | &nbsp; |
+| `externals` | 外部扩展 | array | &nbsp; |
 and so on ...
 
 ### `output`
