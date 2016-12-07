@@ -6,6 +6,6 @@
    * [js 设计模式](前端/js设计模式/README.md)
    * [webpack](前端/webpack/README.md)
        * [配置](前端/webpack/config.md)
-       * [加载器](前端/webpack/jia_zai_qi.md)
+       * [加载器](前端/webpack/loaders.md)
        * [插件](前端/webpack/plugins.md)
 
