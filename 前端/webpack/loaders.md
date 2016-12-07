@@ -47,4 +47,4 @@ module.exports = {
 }
 ```
 
-[** more **](https://github.com/webpack/css-loader)
+更多关于css-loader 请看[** 源码 **](https://github.com/webpack/css-loader)
