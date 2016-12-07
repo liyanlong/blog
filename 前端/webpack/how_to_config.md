@@ -22,4 +22,4 @@
 | `entry` | 入口文件 | string &#124; array &#124; object | &nbsp;|
 | `output` | 输出配置 | object | &nbsp; |
 | `output.filename` | 输出文件名 | string | &nbsp; |
-| `output.filename` | 输出文件名 | string | &nbsp; |
+| `output.path` | 输出路径(要求：absolute path)  | string | &nbsp; |
