@@ -19,5 +19,5 @@
 | name | description | type | default |
 | -- | -- | -- | -- |
 | `context` | 文件绝对路径 base path | string | process.cwd() |
-| `entry` | 1:2 | 2:2 | 3:2 |
+| `entry` | 入口文件 | string &#124; array &#124; object |  |
 | `output` | 1:2 | 2:2 | 3:2 |
