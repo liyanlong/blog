@@ -5,6 +5,6 @@
    * [js 设计模式](前端/js设计模式/README.md)
    * [css杂谈](css/README.md)
    * [webpack](前端/webpack/README.md)
-       * [How To Config ?](前端/webpack/pei_zhi_can_shu_jie_shao.md)
+       * [How To Config ?](前端/webpack/how_to_config.md)
        * 加载器
 
