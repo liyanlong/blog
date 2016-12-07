@@ -9,9 +9,9 @@ npm install -g webpack
 ```
 
 ## Usage
-- 命令行打包
-- 配置文件
-- API接口
+- [命令行打包](https://webpack.github.io/docs/cli.html)
+- [配置文件](https://webpack.github.io/docs/configuration.html)
+- [API接口](https://webpack.github.io/docs/node.js-api.html)
 
 
 ### 命令行打包
@@ -43,11 +43,22 @@ webpack  ./app.js app.bundle.js
 ![官网实例](https://dtinth.github.io/webpack-docs-images/usage/how-it-works.png)
 
 
-### 配置文件
 
+### 配置文件模式
+
+webpack.config.js
+
+```javascript
+module.exports = {
+  entry: './app.js',
+  output: {
+    filename: '[name].bundle.js'
+  }
+}
+```
 
 
 
 ## example
 
-- Hello World
+- [simple](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
