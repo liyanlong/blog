@@ -29,8 +29,6 @@
 ### `css-loader`
 > 加载css文件, 配合 style-loader 注入到web页面
 
-**example**
-
 ```javascript
 module.exports = {
   //...
