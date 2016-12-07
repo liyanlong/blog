@@ -42,3 +42,6 @@ and so on ...
 | name | description | type | default |
 | -- | -- | -- | -- |
 | `module.loaders` | 加载器 | array | &nbsp; |
+| `module.preLoaders` | 预加载器 | array | &nbsp; |
+| `module.postLoaders` |  | array | &nbsp; |
+| `module.noParse` |  | RegExp | &nbsp; |
