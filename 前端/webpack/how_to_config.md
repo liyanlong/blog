@@ -38,3 +38,7 @@ and so on ...
 | `output.libraryTarget` | 输出变量方式，"var", "this", "commonjs", "commonjs2", "umd", "cmd",   | string | "var" |
 
 ### `module`
+
+| name | description | type | default |
+| -- | -- | -- | -- |
+| `module.loaders` | 加载器 | array | &nbsp; |
