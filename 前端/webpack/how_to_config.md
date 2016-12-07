@@ -26,3 +26,8 @@
 | `output.chunkFilename` | 没有在入口文件定义，但却需要打包的文件  | string | &nbsp; |
 | `output.sourceMapFilename` | 根据入口文件生成的sourcemap文件  | string | &nbsp; |
 | `output.library` | 如果配置libray, 输出 name 做为 library name  | string | &nbsp; |
+| `output.libraryTarget` | 输出变量方式，"var", "this", "commonjs", "commonjs2", "umd", "cmd",   | string | "var" |
+and so on ...
+
+
+## 
