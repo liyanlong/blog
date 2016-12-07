@@ -24,6 +24,7 @@
 | `module` | 模块配置 | object | &nbsp; |
 | `resolve` | 模块分解配置 | object | &nbsp; |
 | `plugins` | 插件配置 | object | &nbsp; |
+| `externals` | 外部扩展 | array | &nbsp; |
 and so on ...
 
 ### `output`
@@ -38,3 +39,19 @@ and so on ...
 | `output.libraryTarget` | 输出变量方式，"var", "this", "commonjs", "commonjs2", "umd", "cmd",   | string | "var" |
 
 ### `module`
+
+| name | description | type | default |
+| -- | -- | -- | -- |
+| `module.loaders` | 加载器 | array | &nbsp; |
+| `module.preLoaders` | 预加载器 | array | &nbsp; |
+| `module.postLoaders` |  | array | &nbsp; |
+| `module.noParse` |  | RegExp | &nbsp; |
+
+### `resolve`
+| name | description | type | default |
+| -- | -- | -- | -- |
+| `resolve.alias` | 模块别名 | object | &nbsp; |
+| `module.root` | 根绝对路径 | string &#124; array | &nbsp; |
+| `module.modulesDirectories` | 模块文件夹名称 | string | node_modules |
+| `module.fallback` | 如果在root路径下寻找不到模块,则在该路径下寻找 | string &#124; array | &nbsp; |
+| `module.extensions` | 默认模块扩展名称 | string &#124; array | [".webpack.js", ".web.js", ".js"] |
