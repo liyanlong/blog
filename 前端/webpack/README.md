@@ -9,9 +9,9 @@ npm install -g webpack
 ```
 
 ## Usage
-- 命令行打包
-- 配置文件
-- API接口
+- [命令行打包](https://webpack.github.io/docs/cli.html)
+- [配置文件](https://webpack.github.io/docs/configuration.html)
+- [API接口](https://webpack.github.io/docs/node.js-api.html)
 
 
 ### 命令行打包
