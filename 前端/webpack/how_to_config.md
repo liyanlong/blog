@@ -22,6 +22,7 @@
 | `entry` | 入口文件 | string &#124; array &#124; object | &nbsp;|
 | `output` | 输出配置 | object | &nbsp; |
 | `module` | 模块配置 | object | &nbsp; |
+
 and so on ...
 
 ### `output`
