@@ -5,4 +5,5 @@
 ## 常用的加载器介绍
 - css-loader
 - style-loader
+- url-loader
 - 
