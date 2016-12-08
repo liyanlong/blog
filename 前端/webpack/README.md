@@ -89,7 +89,7 @@ webpack(webpackConfig, function (err, stats) {
 node build.js
 ```
 
-## 例子
+## 更多例子
 
 - [basic demo](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
 - [use loader](https://github.com/liyanlong/webpack-simples/tree/master/simple-loaders)
