@@ -40,7 +40,7 @@
 
 将代码分隔的子块引用的公共块提取出来
 
-```
+```javascript
 new CommonsChunkPlugin({
   // names: ["app", "subPageA"]
   // (choose the chunks, or omit for all chunks)
@@ -57,7 +57,7 @@ new CommonsChunkPlugin({
 
 将代码分隔的子块引用的公共块提取出来, 并进行异步加载
 
-```
+```javascript
 new CommonsChunkPlugin({
   // names: ["app", "subPageA"]
   // (choose the chunks, or omit for all chunks)
