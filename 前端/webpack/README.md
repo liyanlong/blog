@@ -1,12 +1,13 @@
 # What is webpack?
+webpack 2.0 官网: https://webpack.github.io/docs/webpack.js.org
 > webpack = web + package, 将web的资源进行一次打包.
-
 
 ## Install
 
 ```
 npm install -g webpack
 ```
+
 
 ## Usage
 - [命令行打包](https://webpack.github.io/docs/cli.html)
