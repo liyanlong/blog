@@ -52,5 +52,25 @@ module.exports = {
 ### `babel-loader`
 >  es6语法解析器， 提前使用下一代 javascript 语法
 
+安装
+```
+npm install babel-core babel-loader --save-dev
+```
+```javascript
+module.exports = {
+  //...
+  ,
+  module: {
+    loaders: [
+      {
+        test: /\.js/,
+        // loader
+        loader: 'babel-loader',
+        // loaders: ['style-loader', 'css-loader'],
+      }
+    ]
+  } 
+}
+```
 
 
