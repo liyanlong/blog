@@ -84,6 +84,11 @@ webpack(webpackConfig, function (err, stats) {
 
 ```
 
+接下来 命令行下使用
+```
+node build.js
+```
+
 ## 例子
 
 - [basic demo](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
