@@ -14,7 +14,7 @@ npm install -g webpack
 - [API接口](https://webpack.github.io/docs/node.js-api.html)
 
 
-### 命令行打包
+### `命令行打包`
 
 lib.js
 ```
@@ -44,7 +44,7 @@ webpack  ./app.js app.bundle.js
 
 
 
-### 配置文件模式
+### `配置文件模式`
 
 webpack.config.js
 
@@ -57,8 +57,9 @@ module.exports = {
 }
 ```
 
+### `Nodejs API 模式`
 
+## 例子
 
-## example
-
-- [simple](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
+- [basic demo](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
+- [use loader](https://github.com/liyanlong/webpack-simples/tree/master/simple-loaders)
