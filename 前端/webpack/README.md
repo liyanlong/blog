@@ -93,3 +93,4 @@ node build.js
 
 - [basic demo](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
 - [use loader](https://github.com/liyanlong/webpack-simples/tree/master/simple-loaders)
+- use plugins
