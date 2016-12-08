@@ -20,14 +20,13 @@
 
 
 ## 常用的加载器
-- css-loader
-- style-loader
+- style-loader!css-loader
 - url-loader
 - babel-loader
 
 
-### `css-loader`
-> 加载css文件, 配合 style-loader 注入到web页面
+### `style-loader!css-loader`
+> 加载css文件, 将css文件注入到web页面
 
 ```javascript
 module.exports = {
@@ -39,8 +38,7 @@ module.exports = {
         test: /\.css/,
         // loader
         loader: 'style-loader!css-loader',
-        loaders: ['style-loader', 'css-loader'],
-
+        // loaders: ['style-loader', 'css-loader'],
       }
     ]
   } 
@@ -48,3 +46,35 @@ module.exports = {
 ```
 
 更多关于css-loader 请看[** 源码 **](https://github.com/webpack/css-loader)
+
+更多关于style-loader 请看[** 源码 **](https://github.com/webpack/style-loader)
+
+### `babel-loader`
+>  es6语法解析器， 提前使用下一代 javascript 语法
+
+安装
+```
+npm install babel-loader babel-core babel-preset-es2015 webpack --save-dev
+```
+```javascript
+module.exports = {
+  //...
+  ,
+  module: {
+    loaders: [
+      {
+        test: /\.js/,
+        exclude: /(node_modules|bower_components)/,
+        // loader
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015']
+        }
+      }
+    ]
+  }
+}
+```
+
+详细demo: 请看[源码](https://github.com/liyanlong/webpack-examples/tree/master/babel-loader)
+

@@ -14,7 +14,7 @@ npm install -g webpack
 - [API接口](https://webpack.github.io/docs/node.js-api.html)
 
 
-### 命令行打包
+### `命令行打包`
 
 lib.js
 ```
@@ -44,7 +44,7 @@ webpack  ./app.js app.bundle.js
 
 
 
-### 配置文件模式
+### `配置文件模式`
 
 webpack.config.js
 
@@ -57,8 +57,39 @@ module.exports = {
 }
 ```
 
+### `Nodejs API 模式`
+build.js
+```javascript
+var webpack = require('webpack')
+var webpackConfig = {
+  context: path.join(__dirname, './'),
+  entry: "./app.js",
+  output: {
+    path: path.join(__dirname ,"./dist"),
+    filename: "bundle.js"
+  }
+}
 
 
-## example
+webpack(webpackConfig, function (err, stats) {
+  if (err) throw err
+  process.stdout.write(stats.toString({
+    colors: true,
+    modules: false,
+    children: false,
+    chunks: false,
+    chunkModules: false
+  }) + '\n')
+})
 
-- [simple](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
+```
+
+接下来 命令行下使用
+```
+node build.js
+```
+
+## 更多例子
+
+- [webpack-simples](https://github.com/liyanlong/webpack-simples) 
+- [webpack-demos](https://github.com/ruanyf/webpack-demos)
