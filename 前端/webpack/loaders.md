@@ -76,5 +76,5 @@ module.exports = {
 }
 ```
 
-详细demo: 请看[源码]()
+详细demo: 请看[源码](https://github.com/liyanlong/webpack-examples/tree/master/babel-loader)
 
