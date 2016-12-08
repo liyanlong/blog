@@ -58,6 +58,31 @@ module.exports = {
 ```
 
 ### `Nodejs API 模式`
+build.js
+```javascript
+var webpack = require('webpack')
+var webpackConfig = {
+  context: path.join(__dirname, './'),
+  entry: "./app.js",
+  output: {
+    path: path.join(__dirname ,"./dist"),
+    filename: "bundle.js"
+  }
+}
+
+
+webpack(webpackConfig, function (err, stats) {
+  if (err) throw err
+  process.stdout.write(stats.toString({
+    colors: true,
+    modules: false,
+    children: false,
+    chunks: false,
+    chunkModules: false
+  }) + '\n')
+})
+
+```
 
 ## 例子
 
