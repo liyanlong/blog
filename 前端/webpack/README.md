@@ -97,5 +97,5 @@ node build.js
 
 ## 更多例子
 
-- [webpack-simples](https://github.com/liyanlong/webpack-simples) 
+- [webpack-examples](https://github.com/liyanlong/webpack-examples) 
 - [webpack-demos](https://github.com/ruanyf/webpack-demos)
