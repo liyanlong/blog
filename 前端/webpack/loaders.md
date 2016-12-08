@@ -52,5 +52,6 @@ module.exports = {
 
 ### `babel-loader`
 >  es6语法解析器， 提前使用下一代 javascript 语法
->  
+
+
 
