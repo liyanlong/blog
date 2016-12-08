@@ -91,6 +91,5 @@ node build.js
 
 ## 更多例子
 
-- [basic demo](https://github.com/liyanlong/webpack-simples/tree/master/simple) 
-- [use loader](https://github.com/liyanlong/webpack-simples/tree/master/simple-loaders)
-- use plugins
+- [webpack-simples](https://github.com/liyanlong/webpack-simples) 
+- [webpack-demos](https://github.com/ruanyf/webpack-demos)
