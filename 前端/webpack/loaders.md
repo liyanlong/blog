@@ -54,7 +54,7 @@ module.exports = {
 
 安装
 ```
-npm install babel-core babel-loader --save-dev
+npm install babel-loader babel-core babel-preset-es2015 webpack --save-dev
 ```
 ```javascript
 module.exports = {
@@ -64,13 +64,17 @@ module.exports = {
     loaders: [
       {
         test: /\.js/,
+        exclude: /(node_modules|bower_components)/,
         // loader
         loader: 'babel-loader',
-        // loaders: ['style-loader', 'css-loader'],
+        query: {
+          presets: ['es2015']
+        }
       }
     ]
-  } 
+  }
 }
 ```
 
+详细demo: 请看[源码]()
 
