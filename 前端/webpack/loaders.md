@@ -49,3 +49,8 @@ module.exports = {
 更多关于css-loader 请看[** 源码 **](https://github.com/webpack/css-loader)
 
 更多关于style-loader 请看[** 源码 **](https://github.com/webpack/style-loader)
+
+### `babel-loader`
+>  es6语法解析器， 提前使用下一代 javascript 语法
+>  
+
