@@ -6,6 +6,7 @@
 ## 前端
 * [css杂谈](前端/css/README.md)
 * [js 基础知识](js-基础知识.md)
+    * Web Workers API
 * [js 设计模式](前端/js设计模式/README.md)
 
 ## 前端工具
