@@ -45,19 +45,19 @@ var onmessage = function (event) {
 };
 
 ```
-结果：
+
 ```html
 <body>
 worker.onmessage
 </body>
 ```
-## worker.postMessage(data);
-```
-```
+## Worker API
+
+### worker.postMessage(data);
+推送数据信息给 worker控制的线程
 
 ## worker.onmessage = function (event) {};
-收到worker启动的线程调用的postMessage(data);
-
+收到worker控制线程 推送的data
 
 ```javascript 
 s
