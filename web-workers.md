@@ -44,7 +44,7 @@ var onmessage = function (event) {
 ## worker.postMessage(data);
 
 ## worker.onmessage = function (event) {};
-> 收到 worker线程调用的 postMessage(data);
+> 收到worker启动的线程调用的postMessage(data);
 
 ## worker.onerror = function (callback) {};
 
