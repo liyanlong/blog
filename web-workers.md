@@ -13,13 +13,25 @@ if (window.Worker) {
 
 ```javascript
 `index.html`
-// 启动一个线程 运行`${location.pathname}/xxx.js`
-var w = new WebWork('xxx.js');
+// 启动一个线程 运行`${location.pathname}/hello.js`
+var w = new WebWork('hello.js');
 
-// window 发送data 给 xxx.js
+// window 发送data 给 hello.js
 w.postMessage({
     msg: 'hello world'
 }); 
+```
+
+```javascript
+`hello.js`
+console.log(this);
+this.onmessage(function (event) {
+    var data = event.data;
+    if (data.msg) {
+        alert(data.msg);
+    }
+});
+
 ```
 
 ## webwork 和 dom
@@ -27,5 +39,6 @@ w.postMessage({
 - window 对象
 - document 对象
 - parent 对象
+
 
 
