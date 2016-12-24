@@ -34,6 +34,12 @@ this.onmessage(function (event) {
 
 ```
 
+## worker.postMessage(data)
+
+## worker.onmessage = function (event) {};
+
+## worker.onerror = function (callback) {};
+
 ## webwork 和 dom
 由于 web worker 位于外部文件中，它们无法访问下例 JavaScript 对象
 - window 对象
