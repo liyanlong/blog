@@ -61,7 +61,7 @@ worker.onmessage
 收到worker控制线程推送的data出发onmessage事件
 
 ## worker.onerror = function (event) {};
-突然中断会触发error事件
+线程内抛出异常，并且未捕获触发onerror事件
 
 ## worker.terminate();
 中断线程运行
