@@ -24,13 +24,16 @@ w.postMessage({
 
 ```javascript
 `hello.js`
+
+// DedicatedWorkerGlobalScope 对象
 console.log(this);
-this.onmessage(function (event) {
+
+var onmessage = function (event) {
     var data = event.data;
     if (data.msg) {
         alert(data.msg);
     }
-});
+};
 
 ```
 
