@@ -20,6 +20,8 @@ var w = new Worker('hello.js');
 w.postMessage({
     msg: 'hello world'
 }); 
+w.onmessage = function () {
+}
 ```
 
 ```javascript
