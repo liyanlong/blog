@@ -5,7 +5,7 @@
 
 ```
 if (window.webwork) {
-    // 支持
+    // 支持 webwork
 }
 ```
 
