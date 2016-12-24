@@ -10,8 +10,9 @@ if (window.Worker) {
 ```
 ## 通信
 
-```javascript
 
+```javascript
+`index.html`
 // 启动一个线程 运行`${location.pathname}/xxx.js`
 var w = new WebWork('xxx.js');
 
