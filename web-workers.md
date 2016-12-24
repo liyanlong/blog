@@ -1,5 +1,5 @@
 # Web Workers
-> 可以在浏览器后台运行的js，浏览器线程，和浏览器后台线程, 线程孤立于window作用域, 对象数据需要通过 postMessage 进行传递处理
+> 可以在浏览器后台运行的js，浏览器线程，和浏览器后台线程, 线程孤立于window作用域, 对象数据需要通过 postMessage 进行传递处理, 对象
 
 
 
@@ -72,5 +72,16 @@ worker.onmessage
 - document 对象
 - parent 对象
 
+错误的例子:
+
+```javascript
+var a = new Worker('demo.js');
+
+// Uncaught DOMException
+a.postMessage({
+    window: window,
+    document: document
+});
+```
 
 
