@@ -28,10 +28,3 @@ w.postMessage({
 - parent 对象
 
 
-
-## DEMO
-
-
-```
-
-```
