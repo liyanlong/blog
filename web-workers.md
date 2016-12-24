@@ -41,7 +41,7 @@ var onmessage = function (event) {
 
 ```
 
-## worker.postMessage(data)
+## worker.postMessage(data);
 
 ## worker.onmessage = function (event) {};
 
