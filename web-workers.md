@@ -46,7 +46,7 @@ var onmessage = function (event) {
 };
 
 ```
-
+结果
 ```html
 <body>
 worker.onmessage
