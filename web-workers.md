@@ -58,10 +58,10 @@ worker.onmessage
 推送数据信息给 worker控制的线程
 
 ## worker.onmessage = function (event) {};
-收到worker控制线程推送的 data
+收到worker控制线程推送的data出发onmessage事件
 
-## worker.onerror = function (callback) {};
-
+## worker.onerror = function (event) {};
+突然终端会触发error事件
 
 ## worker.terminate();
 中断线程运行
