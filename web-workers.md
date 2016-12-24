@@ -8,7 +8,7 @@ if (window.Worker) {
     // 支持 Worker
 }
 ```
-## 通信
+## 通信方式
 
 
 ```javascript
@@ -39,6 +39,9 @@ this.onmessage(function (event) {
 ## worker.onmessage = function (event) {};
 
 ## worker.onerror = function (callback) {};
+
+## worker.terminate();
+中断线程运行
 
 ## webwork 和 dom
 由于 web worker 位于外部文件中，它们无法访问下例 JavaScript 对象
