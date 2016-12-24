@@ -31,6 +31,8 @@ console.log(this);
 // 当 worker.postMessage(data); 有用
 // 调用 onmmesage 函数
 var onmessage = function (event) {
+
+    // MessageEvent
     var data = event.data;
     if (data.msg) {
         alert(data.msg);
