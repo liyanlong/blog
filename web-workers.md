@@ -23,7 +23,7 @@ w.postMessage({
 
 // 接受线程调用的postMessage(data);
 w.onmessage = function (event) {
-
+    document.body.innerHTML = event.data;
 }
 ```
 
@@ -40,7 +40,7 @@ var onmessage = function (event) {
     // event instanceof MessageEvent
     var data = event.data;
     if (data.msg) {
-        console.log(data.msg);
+        postMessage('worker.onmessage:' + data.msg);
     }
 };
 
