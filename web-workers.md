@@ -57,13 +57,10 @@ worker.onmessage
 推送数据信息给 worker控制的线程
 
 ## worker.onmessage = function (event) {};
-收到worker控制线程 推送的data
-
-```javascript 
-s
-```
+收到worker控制线程推送的 data
 
 ## worker.onerror = function (callback) {};
+
 
 ## worker.terminate();
 中断线程运行
