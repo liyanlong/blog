@@ -15,7 +15,7 @@ if (window.Worker) {
 // 启动一个线程 运行`${location.pathname}/xxx.js`
 var w = new WebWork('xxx.js');
 
-// 发送data 给 xxx.js
+// window 发送data 给 xxx.js
 w.postMessage({
     msg: 'hello world'
 }); 
