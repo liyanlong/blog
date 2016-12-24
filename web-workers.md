@@ -1,5 +1,7 @@
 # Web Workers
-> 可以在浏览器后台运行的js，浏览器线程，和浏览器后台线程
+> 可以在浏览器后台运行的js，浏览器线程，和浏览器后台线程, 线程孤立于window作用域, 对象数据需要通过 postMessage 进行传递处理
+
+
 
 ## **浏览器特性**
 
@@ -9,7 +11,6 @@ if (window.Worker) {
 }
 ```
 ## 通信方式
-
 
 ```javascript
 `index.html`
