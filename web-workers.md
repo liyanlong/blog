@@ -14,7 +14,7 @@ if (window.Worker) {
 ```javascript
 `index.html`
 // 启动一个线程 运行`${location.pathname}/hello.js`
-var w = new WebWork('hello.js');
+var w = new Worker('hello.js');
 
 // window 发送data 给 hello.js
 w.postMessage({
