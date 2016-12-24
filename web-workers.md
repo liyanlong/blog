@@ -12,7 +12,7 @@ if (window.Worker) {
 
 ```javascript
 
-// 启动一个线程 运行 `${location.pathname}/xxx.js`
+// 启动一个线程 运行`${location.pathname}/xxx.js`
 var w = new WebWork('xxx.js');
 
 // 发送data 给 xxx.js
