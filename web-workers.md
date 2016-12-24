@@ -35,16 +35,23 @@ var onmessage = function (event) {
     // event instanceof MessageEvent
     var data = event.data;
     if (data.msg) {
-        alert(data.msg);
+        console.log(data.msg);
     }
 };
 
 ```
 
 ## worker.postMessage(data);
+```
+```
 
 ## worker.onmessage = function (event) {};
-> 收到worker启动的线程调用的postMessage(data);
+收到worker启动的线程调用的postMessage(data);
+
+
+```javascript 
+s
+```
 
 ## worker.onerror = function (callback) {};
 
