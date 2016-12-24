@@ -32,7 +32,7 @@ console.log(this);
 // 调用 onmmesage 函数
 var onmessage = function (event) {
 
-    // MessageEvent
+    // event MessageEvent
     var data = event.data;
     if (data.msg) {
         alert(data.msg);
