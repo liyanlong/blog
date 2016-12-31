@@ -23,6 +23,7 @@
 
 ## Config
 
+- JS文件内部
 - 配置package.json
 - 配置.eslintrc.*
 - command line
