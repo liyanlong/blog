@@ -39,7 +39,7 @@
   - lib
      - index.js
 ```
-1. 检查 `test/test.js`, 先读取test目录下的.eslintrc文件, 如果配置没找到再向上找一级，找到`.eslintrc.js
+1. 检查 `test/test.js`, 先读取test目录下的.eslintrc文件, 如果配置没找到再向上找一级，找到`.eslintrc.js`
 
 ### Config.parserOptions
 
