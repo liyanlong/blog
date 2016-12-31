@@ -114,3 +114,8 @@
     }
 }
 ```
+js单文件模式
+```javascript
+/* global var1:true, var2:false */
+// 可以使用全局变量var1
+```
