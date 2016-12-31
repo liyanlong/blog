@@ -136,5 +136,8 @@ console.log('bar');
 /* global var1:true, var2:false */
 // 可以使用全局变量var1
 
+alert('foo'); // eslint-disable-line
 
+// eslint-disable-next-line
+alert('foo');
 ```
