@@ -28,18 +28,10 @@
 - 配置.eslintrc.*
 - command line
 
-## Config.parserOptions
+### Config.parserOptions
 
 ```js
 {
-    /*
-     * 解释器插件 默认 Espree
-     * 要求：
-     * 1. npm本地装解释器
-     * 2. 实现 Esprima-compatible interface, 对象返回 parse()方法
-     * 3. 它必须产生Esprima兼容AST和令牌对象
-     */
-    "parse": "babel-eslint",
     "parserOptions": {
         
         // ES6 标准
@@ -60,5 +52,21 @@
     "rules": {
         "semi": 2
     }
+}
+```
+
+### Config.parse
+
+``` javascript
+{
+    /*
+     * 解释器插件 默认 Espree
+     * 要求：
+     * 1. npm本地装解释器
+     * 2. 实现 Esprima-compatible interface, 对象返回 parse()方法
+     * 3. 它必须产生Esprima兼容AST和令牌对象
+     */
+    "parse": "babel-eslint",
+
 }
 ```
