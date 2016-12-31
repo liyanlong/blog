@@ -14,8 +14,8 @@
 
 ## Rules
 
-| Rule          | Desc          | 中文|
-| ------------- |:-------------:|---|
-| no-await-in-loop | disallow await inside of loops | 禁止在循环内使用await |
-| no-cond-assign | disallow assignment operators in conditional expressions | 禁止在 = 赋值时直接判断|
-| zebra stripes | are neat      |
+| Rule             | 描述                    |
+| ---------------- |------------------------|
+| no-await-in-loop | 禁止在循环内使用await     |
+| no-cond-assign   | 禁止在 = 赋值时直接判断    |
+| no-console       | 禁止使用console          | 
