@@ -32,6 +32,7 @@
 
 ```js
 {
+    ...,
     "parserOptions": {
         
         // ES6 标准
