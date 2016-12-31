@@ -27,3 +27,30 @@
 - 配置package.json
 - 配置.eslintrc.*
 - command line
+
+## Config.parserOptions
+
+```js
+{
+    "parserOptions": {
+        
+        // ES6 标准
+        "ecmaVersion": 6,
+        
+        // 源文件type module or script
+        "sourceType": "module",
+        "ecmaFeatures": {
+            
+            // 允许全局范围返回变量
+            "globalReturn": true,
+            
+            // 全局严格模式
+            "impliedStrict": true,
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": 2
+    }
+}
+```
