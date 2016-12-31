@@ -94,3 +94,11 @@
 ```
 
 ### Config.root
+
+```javascript
+{
+    // 当前项目为根目录
+    // 阻止级联样式
+    "root": true
+}
+```
