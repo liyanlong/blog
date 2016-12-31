@@ -102,3 +102,15 @@
     "root": true
 }
 ```
+
+### Config.global
+
+```javascript
+{
+    // 全局变量名, 设置了全局变量jquery, 静止全局变量$
+    "global": {
+        "jquery": true,
+        "$": false
+    }
+}
+```
