@@ -10,14 +10,14 @@
 * [js 设计模式](前端/js设计模式/README.md)
 
 ## 前端工具
-* [webpack](前端/webpack/README.md)
-    * [配置](前端/webpack/config.md)
-    * [加载器](前端/webpack/loaders.md)
-    * [插件](前端/webpack/plugins.md)
+* [webpack](前端工具/webpack/README.md)
+    * [配置](前端工具/webpack/config.md)
+    * [加载器](前端工具/webpack/loaders.md)
+    * [插件](前端工具/webpack/plugins.md)
 * [测试框架](测试框架.md)
     * [ava 测试框架](ava-测试框架.md)
-* [代码检查](代码检查.md)
-    * [eslint](eslint.md)
+* [代码检查](前端工具/代码检查.md)
+    * [eslint](前端工具/eslint.md)
 
 ## WEB相关
 * [安全](web/security/README.md)
