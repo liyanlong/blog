@@ -113,9 +113,18 @@
         "$": false
     }
 }
-```
-js单文件模式
+
+## 文件配置
+
 ```javascript
+/* eslint eqeqeq: "off", curly: "error" */
+/* eslint eqeqeq: "off", curly: 2 */
+
+/* eslint-disable */
+alert('foo');
+/* eslint-enable */
+
 /* global var1:true, var2:false */
 // 可以使用全局变量var1
+
 ```
