@@ -125,9 +125,8 @@
 // 可以使用全局变量var1
 /* global var1:true, var2:false */
 
-// 设置变量
-/* eslint-env */
-
+// 设置环境变量
+/* eslint-env node, mocha */
 
 /* eslint-disable */
 // 所有规则停用检查
