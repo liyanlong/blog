@@ -23,3 +23,6 @@
 
 ## Config
 
+- 配置package.json
+- 配置.eslintrc.*
+- command line
