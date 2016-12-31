@@ -32,6 +32,8 @@
 
 ```js
 {
+    // 解释器插件 默认 Espree
+    "parse": "babel-eslint",
     "parserOptions": {
         
         // ES6 标准
