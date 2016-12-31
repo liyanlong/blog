@@ -37,6 +37,7 @@
      * 要求：
      * 1. npm本地装解释器
      * 2. 实现 Esprima-compatible interface, 对象返回 parse()方法
+     * 3. 它必须产生Esprima兼容AST和令牌对象
      */
     "parse": "babel-eslint",
     "parserOptions": {
