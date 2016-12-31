@@ -118,9 +118,15 @@
 
 ```javascript
 
+// 设置规则
 /* eslint eqeqeq: "off", curly: "error" */
 /* eslint eqeqeq: "off", curly: 2 */
-// 设置规则
+
+// 可以使用全局变量var1
+/* global var1:true, var2:false */
+
+// 设置变量
+/* eslint-env */
 
 
 /* eslint-disable */
@@ -133,8 +139,6 @@ alert('foo');
 console.log('bar');
 /* eslint-enable no-alert, no-console */
 
-/* global var1:true, var2:false */
-// 可以使用全局变量var1
 
 // 作用于当行
 alert('foo'); // eslint-disable-line
