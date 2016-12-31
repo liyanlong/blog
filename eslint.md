@@ -69,3 +69,13 @@
     ...
 }
 ```
+
+### Config.env
+```javascript
+{
+    "env": {
+        // 浏览器模式
+        "browser": true
+    }
+}
+```
