@@ -16,8 +16,8 @@
     * [插件](前端工具/webpack/plugins.md)
 * [测试框架](测试框架.md)
     * [ava 测试框架](ava-测试框架.md)
-* [代码检查](前端工具/代码检查.md)
-    * [eslint](前端工具/eslint.md)
+* [代码检查](前端工具/代码检查/README.md)
+    * [eslint](前端工具/代码检查/eslint.md)
 
 ## WEB相关
 * [安全](web/security/README.md)
