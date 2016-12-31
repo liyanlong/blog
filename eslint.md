@@ -138,8 +138,14 @@ console.log('bar');
 
 // 作用于当行
 alert('foo'); // eslint-disable-line
+alert('foo'); // eslint-disable-line no-alert, quotes, semi
+
 
 // 作用于下一行
-// eslint-disable-next-line
+// eslint-disable-next-line 
 alert('foo');
+
+// eslint-disable-next-line no-alert, quotes, semi
+alert('foo');
+
 ```
