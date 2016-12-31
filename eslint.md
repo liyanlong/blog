@@ -30,7 +30,7 @@
 
 ### Config.parserOptions
 
-```js
+```javascript
 {
     ...,
     "parserOptions": {
@@ -66,6 +66,6 @@
      * 3. 它必须产生Esprima兼容AST和令牌对象
      */
     "parse": "babel-eslint",
-
+    ...
 }
 ```
