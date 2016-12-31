@@ -32,7 +32,12 @@
 
 ```js
 {
-    // 解释器插件 默认 Espree
+    /*
+     * 解释器插件 默认 Espree
+     * 要求：
+     * 1. npm本地装解释器
+     * 2. 实现 Esprima-compatible interface, 对象返回 parse()方法
+     */
     "parse": "babel-eslint",
     "parserOptions": {
         
