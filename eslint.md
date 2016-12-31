@@ -117,14 +117,24 @@
 ## 文件配置
 
 ```javascript
+
 /* eslint eqeqeq: "off", curly: "error" */
 /* eslint eqeqeq: "off", curly: 2 */
+// 设置规则
+
 
 /* eslint-disable */
+// 所有规则停用检查
 alert('foo');
 /* eslint-enable */
 
+/* eslint-disable no-alert, no-console */
+// 局部规则停用检查
+console.log('bar');
+/* eslint-enable no-alert, no-console */
+
 /* global var1:true, var2:false */
 // 可以使用全局变量var1
+
 
 ```
