@@ -14,6 +14,7 @@
     * [配置](前端工具/webpack/config.md)
     * [加载器](前端工具/webpack/loaders.md)
     * [插件](前端工具/webpack/plugins.md)
+    * [打包类库](前端工具/webpack/打包类库.md)
 * [测试框架](测试框架.md)
     * [ava 测试框架](ava-测试框架.md)
 * [代码检查](前端工具/代码检查/README.md)
