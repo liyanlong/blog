@@ -43,7 +43,7 @@
 将代码分隔的子块引用的公共块提取出来
 
 ```javascript
-new CommonsChunkPlugin({
+new webpack.optimize.CommonsChunkPlugin({
   // names: ["app", "subPageA"]
   // (choose the chunks, or omit for all chunks)
 
