@@ -73,3 +73,7 @@ new CommonsChunkPlugin({
   // (3 children must share the module before it's separated)
 })
 ```
+
+
+## extract-text-webpack-plugin
+引用的css文件进行抽取
