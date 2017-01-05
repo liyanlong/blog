@@ -39,8 +39,8 @@
 
 
 ### `Move common modules into the parent chunk`
+> 在某些情况下, 使用 code split 的一些小模块会有许多公共的模块,并且没有单独抽取出来,这时候使用 `chidren: true` 可以把 这些小模块的公共模块提取出来.
 
-将代码分隔的子块引用的公共块提取出来
 
 ```javascript
 new webpack.optimize.CommonsChunkPlugin({
