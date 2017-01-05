@@ -56,8 +56,7 @@ new webpack.optimize.CommonsChunkPlugin({
 ```
 
 ### `Extra async commons chunk`
-
-将代码分隔的子块引用的公共块提取出来, 并进行异步加载
+> 与上述功能大部分一直, 但是允许异步加载小模块下的公共模块
 
 ```javascript
 new CommonsChunkPlugin({
