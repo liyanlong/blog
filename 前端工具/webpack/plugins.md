@@ -76,4 +76,23 @@ new CommonsChunkPlugin({
 
 
 ## extract-text-webpack-plugin
-引用的css文件进行抽取
+> 引用的css文件进行抽取
+
+**提取成单独的文件**
+
+```javascript
+// webpack 1.x
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var extractLESS = new ExtractTextPlugin('[name].less');
+module.exports = {
+  module: {
+    loaders: [{
+       test: /\.less$/,
+       loader: extractLESS.extract('style-loader','css-loader', 'less-loader')
+       }]
+  },
+  plugins: [
+    extractLESS
+  ]
+}
+```
