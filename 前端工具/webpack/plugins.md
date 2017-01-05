@@ -35,6 +35,8 @@
   ]
 }
 ```
+注意： 上述情况 可能会发生 `main`, `docs` 两个入口的共同依赖的其它文件(非 jquery, underscore) 未被抽取出来.
+
 
 ### `Move common modules into the parent chunk`
 
