@@ -2,7 +2,7 @@
 
 - webpack2.0官网: https://webpack.github.io/docs/webpack.js.org
 - webpack中文指南: http://webpackdoc.com/index.html
-
+- 在线webpack工具: http://www.webpackbin.com/
 
 我的理解
 > webpack = web source to package,  将web的资源进行打包, 
