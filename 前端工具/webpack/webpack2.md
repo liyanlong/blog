@@ -6,6 +6,13 @@
 - plugins 插件
 
 
+## entry
+**单入口**
+```javascript
+ {
+  entry: './src/main.js'
+ }
+```
 
 
 
