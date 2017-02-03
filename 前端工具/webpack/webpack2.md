@@ -9,7 +9,7 @@
 ## entry
 **单入口**
 ```javascript
- {
+ module.exports = {
   entry: './src/main.js'
  }
 ```
