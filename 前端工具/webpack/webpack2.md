@@ -33,5 +33,13 @@ module.exports = {
 ```
 
 **多入口**
-
+```javascript
+module.exports = {
+ entry: {
+  pageOne: './src/pageOne/index.js',
+  pageTwo: './src/pageTwo/index.js',
+  pageThree: './src/pageThree/index.js'
+ }
+}
+```
 
