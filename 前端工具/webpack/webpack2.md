@@ -75,3 +75,6 @@ js脚本是否使用cors检查. 默认关闭
 - `false` `default`
 - `anonymous` 
 - `use-credentials` 
+
+
+**output.devtoolLineToLine**
