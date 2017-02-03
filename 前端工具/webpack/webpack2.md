@@ -64,7 +64,7 @@ module.exports = {
 ### **options 可选**
 
 **output.chunkFilename**
-针对无入口模块的文件取名, 使用code split功能有效, path使用 `output.path`
+针对无入口模块的文件取名,取名变量规则由下 使用code split功能有效, path使用 `output.path`
 - [id] is replaced by the id of the chunk.
 - [name] is replaced by the name of the chunk (or with the id when the chunk has no name).
 - [hash] is replaced by the hash of the compilation.
