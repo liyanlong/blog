@@ -71,6 +71,7 @@ module.exports = {
 - [chunkhash] is replaced by the hash of the chunk.
 
 **output.crossOriginLoading**
+js脚本是否使用cors检查. 默认关闭
 - `false` `default`
-- `anonymous`
-- `use-credentials`
+- `anonymous` 
+- `use-credentials` 
