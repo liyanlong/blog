@@ -60,7 +60,9 @@ module.exports = {
 
 **output.filename**
 输出文件名
-
+- [name]
+- [hash]
+- [chunkhash]
 ### **options 可选**
 
 **output.chunkFilename**
