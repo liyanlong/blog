@@ -69,3 +69,8 @@ module.exports = {
 - [name] is replaced by the name of the chunk (or with the id when the chunk has no name).
 - [hash] is replaced by the hash of the compilation.
 - [chunkhash] is replaced by the hash of the chunk.
+
+**output.crossOriginLoading**
+- `false` `default`
+- `anonymous`
+- `use-credentials`
