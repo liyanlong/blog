@@ -40,4 +40,4 @@ js脚本是否使用cors检查. 默认关闭
 **output.devtoolLineToLine**
 sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线
 - `true` enables it for all modules
-- default `false`
+- **Default:** `false`
