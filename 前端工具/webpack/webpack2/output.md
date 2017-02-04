@@ -122,7 +122,7 @@ exports['foo'] = function foo() {
 
 exports['bar'] = function bar() {
     // do something
-}
+};
 
 // commonjs2
 module.exports = {
