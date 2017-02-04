@@ -99,3 +99,16 @@ sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线
 > **Default:** `webpackJsonp`
 
 **output.library**
+导出library的 name, webpack可以很方便的开发类库, `output.library` 为指定的 name. 如果想要发布单个文件可以使用这个参数
+
+**output.libraryTarget**
+
+- `var`
+- `this`
+- `commonjs`
+- `commonjs2`
+- `amd`
+- `umd`
+
+
+
