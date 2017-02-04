@@ -30,7 +30,7 @@ module.exports = {
     }
 }
 ```
-多个入口文件
+多个入口命名文件
 ```javascript
 module.exports = {
     entry: {
