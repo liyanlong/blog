@@ -19,7 +19,9 @@ filename: 'my-first-webpack.bundle.js'
 - [name]
 - [hash]
 - [chunkhash]
-### **options 可选**
+
+
+**options 可选**
 
 **output.chunkFilename**
 针对无入口模块的文件取名,取名变量规则由下。 使用code split功能有效, path使用 `output.path`
