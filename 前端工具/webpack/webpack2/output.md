@@ -12,7 +12,20 @@ filename: 'my-first-webpack.bundle.js'
 ```
 
 **output.path**
-输出目录
+输出目录， 要求为绝对目录
+`[hash]` is replaced by the hash of the compilation.
+
+```javascript
+module.exports = {
+    output: {
+        path: "/home/proj/public/assets/[hash]",
+        publicPath: "/assets/[hash]"
+    }
+}
+
+```
+
+
 
 **output.filename**
 输出文件名
@@ -71,3 +84,8 @@ sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线
 `[id]` is replaced by the id of the chunk
 `[hash]` is replaced by the hash of the compilation.
 > **Default:** `[id].[hash].hot-update.js`
+
+**output.hotUpdateFunction**
+异步加载热更新模块的方法名
+> **Default:** `webpackHotUpdate`
+
