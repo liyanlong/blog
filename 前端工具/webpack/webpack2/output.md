@@ -132,7 +132,7 @@ module.exports = {
     bar: function () {
         // do something
     }
-}
+};
 ```
 
 
