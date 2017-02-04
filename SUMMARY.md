@@ -19,6 +19,7 @@
   * [插件](前端工具/webpack/plugins.md)
   * [打包类库](前端工具/webpack/打包类库.md)
 * [webpack2](前端工具/webpack/webpack2.md)
+  * [entry](前端工具/webpack/webpack2/entry.md)
 * [测试框架](测试框架.md)
   * [ava 测试框架](ava-测试框架.md)
   * karma
