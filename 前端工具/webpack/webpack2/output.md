@@ -135,4 +135,12 @@ module.exports = {
 };
 ```
 
+**output.sourceMapFilename**
 
+- [file] is replaced by the filename of the JavaScript file.
+
+- [id] is replaced by the id of the chunk.
+
+- [hash] is replaced by the hash of the compilation.
+
+> **Default:** `[file].map`
