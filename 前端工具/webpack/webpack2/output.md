@@ -110,5 +110,6 @@ sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线
 - `amd`
 - `umd`
 
+> **Default:** `var`
 
 
