@@ -19,7 +19,16 @@ filename: 'my-first-webpack.bundle.js'
 - [name]
 - [hash]
 - [chunkhash]
-
+单个入口文件
+```javascript
+module.exports = {
+    entry: './src/app.js',
+    output: {
+        filename: 'bundle.js',
+        path: __dirname + '/build'
+    }
+}
+```
 
 **options 可选**
 
