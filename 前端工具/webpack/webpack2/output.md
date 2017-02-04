@@ -62,6 +62,12 @@ js脚本是否使用cors检查. 默认关闭
 
 
 **output.devtoolLineToLine**
-sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线
-- `true` enables it for all modules
-- **Default:** `false`
+sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线. `true` enables it for all modules
+> **Default:** `false`
+
+
+**output.hotUpdateChunkFilename**
+热更新chunk, 文件基于 `output.path`
+`[id]` is replaced by the id of the chunk
+`[hash]` is replaced by the hash of the compilation.
+> **Default:** `[id].[hash].hot-update.js`
