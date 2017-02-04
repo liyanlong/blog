@@ -24,7 +24,7 @@ module.exports = {
 }
 
 ```
-可以自行在js中指定**__webpack_public_path__ ** 做为 publicPath
+可以自行在js中指定**__webpack_public_path__ **做为 publicPath
 
 
 
