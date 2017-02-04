@@ -105,8 +105,8 @@ sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线
 如果`output.library` 没有定义，但是 `output.libraryTarget` 定义非 `var`， 则所有export的对象将进行复制.(除`amd`, `commonjs2`， `umd`外)
 - `var` 
 - `this`
-- `commonjs`
-- `commonjs2`
+- `commonjs` - only exports
+- `commonjs2` - 重新定义 module.exports 的 指向
 - `amd`
 - `umd`
 
