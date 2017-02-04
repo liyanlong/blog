@@ -92,4 +92,4 @@ sourcemap生成有用, 在每一行生成的源映射到原始来源相同的线
 
 **output.hotUpdateMainFilename**
 热更新主文件的文件名， 包括了更新的模块id
-> Default: `[hash].hot-update.json`
+> **Default:** `[hash].hot-update.json`
