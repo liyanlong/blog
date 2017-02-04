@@ -124,7 +124,15 @@ exports['bar'] = function bar() {
     // do something
 }
 
-
+// commonjs2
+module.exports = {
+    foo: function () {
+        // do something
+    },
+    bar: function () {
+        // do something
+    }
+}
 ```
 
 
