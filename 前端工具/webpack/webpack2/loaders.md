@@ -6,3 +6,9 @@
 - 支持query parameter, 设置loader参数
 - 支持plugins，给loader带来更多新特性
 - 支持附加任何文件
+
+
+** resovled loader**
+在 `node_modules` 中能找到, 使用 `npm install`
+如: `npm install json-loader`
+
