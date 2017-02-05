@@ -5,3 +5,4 @@
 - 运行在nodejs中
 - 支持query parameter, 设置loader参数
 - 支持plugins，给loader带来更多新特性
+- 支持附加任何文件
