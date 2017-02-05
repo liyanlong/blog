@@ -28,6 +28,17 @@ module.exports = {
   }
 };
 ```
+`use` 关键字 支持字符串和对象. `use: 'css-loader'`相当于
+```javascript
+module.exports = {
+  module: {
+     rules: [
+       {test: /\.css/,use: {loader: 'css-loader'}}
+     ]
+  }
+}
+```
+
 
 **特性**
 - 支持链式loader解释器，如：`style-loader!css-loader!less-loader`
