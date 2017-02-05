@@ -1,10 +1,22 @@
 ## loaders
 
-examples:
+**examples** 
 ```
 # npm install --save-dev css-loader
 # npm install --save-dev ts-loader
 ```
+**webpack.config.js**
+```javascript
+module.exports = {
+  module: {
+    rules: [
+      {test: /\.css$/, use: 'css-loader'},
+      {test: /\.ts$/, use: 'ts-loader'}
+    ]
+  }
+};
+```
+
 **特性**
 - 支持链式loader解释器，如：`style-loader!css-loader!less-loader`
 - 支持同步和异步解释
