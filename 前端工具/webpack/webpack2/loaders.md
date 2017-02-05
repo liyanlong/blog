@@ -11,7 +11,19 @@ module.exports = {
   module: {
     rules: [
       {test: /\.css$/, use: 'css-loader'},
-      {test: /\.ts$/, use: 'ts-loader'}
+      {test: /\.ts$/, use: 'ts-loader'},
+      // or equal
+      {
+        test: /\.css$/, 
+        use: {
+          loader: 'css-loader',
+          options: {}
+        }
+      },
+      {
+        test: /\.ts$/,
+        loader: 'ts-loader'
+      }
     ]
   }
 };
