@@ -22,6 +22,7 @@
   * [entry](前端工具/webpack/webpack2/entry.md)
   * [output](前端工具/webpack/webpack2/output.md)
   * [loaders](前端工具/webpack/webpack2/loaders.md)
+  * [plugins](前端工具/webpack/webpack2/plugins.md)
 * [测试框架](测试框架.md)
   * [ava 测试框架](ava-测试框架.md)
   * karma
