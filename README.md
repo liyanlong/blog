@@ -7,7 +7,7 @@
 ![gecko处理流程图解](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image008.jpg)
 
 
-| html解析过程 | 源码解析过程|
+| dom解析过程 | 源码解析过程|
 |----------|:-------------:|
 |![html解析过程](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image011.png) | ![源码解析过程](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image013.png) |
 
