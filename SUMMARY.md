@@ -43,4 +43,5 @@
 ## 编辑器
 
 * [visual studio code](visual-studio-code.md)
+  * [vscode-chrome-debug](visual-studio-code/vscode-chrome-debug.md)
 
