@@ -5,6 +5,8 @@
 - 使用 **launch** 模式
 
 ### **attach** 模式
+> 更多关于vscode的 node debug 内容，[点击查看](https://code.visualstudio.com/docs/editor/node-debugging)
+
 
 launch.json
 ```json
@@ -46,7 +48,7 @@ npm run debug
 ```
 
 ### launch模式 
-> 更多关于vscode的 node debug 内容，[点击查看](https://code.visualstudio.com/docs/editor/node-debugging)
+> 更多关于vscode的 debug 内容，[点击查看](https://code.visualstudio.com/docs/editor/debugging)
 
 ```json
 {
@@ -63,6 +65,7 @@ npm run debug
 }
 ```
 实际上**launch**模式相当于**attach**模式
+
 ```
 node --debug-brk=3888 --nolazy app.js 
 Debugger listening on [::]:3888
