@@ -70,3 +70,7 @@ npm run debug
 node --debug-brk=3888 --nolazy app.js 
 Debugger listening on [::]:3888
 ```
+
+## node inspector
+> Node Inspector is a debugger interface for Node.js applications that uses the Blink Developer Tools (formerly WebKit Web Inspector).
+
