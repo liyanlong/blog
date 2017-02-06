@@ -41,3 +41,5 @@ package.json
 ```javascript
 npm run debug
 ```
+
+2. 在 visual studio code 使用launch模式
