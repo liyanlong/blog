@@ -60,7 +60,7 @@ npm run debug
     ]
 }
 ```
-实际上 launch 模式相当于attach模式
+实际上**launch**模式相当于**attach**模式
 ```
 node --debug-brk=3888 --nolazy app.js 
 Debugger listening on [::]:3888
