@@ -13,7 +13,7 @@ launch.json
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "sigel-entry",
+            "name": "debug",
             "type": "node",
             "request": "attach",
             "runtimeExecutable": "npm",
@@ -46,3 +46,17 @@ npm run debug
 ```
 
 ### launch模式
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/app.js",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
+```
