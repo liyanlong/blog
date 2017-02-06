@@ -10,7 +10,7 @@
 ![html解析过程](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image011.png)
 
 **源码解析过程**
-![](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image013.png)
+![源码解析过程](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image013.png)
 
 
 
