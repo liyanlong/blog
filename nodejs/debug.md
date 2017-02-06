@@ -1,6 +1,6 @@
 # Node Debug
 
-1. 在visual studio code 编辑器下使用 attach模式
+1. 在visual studio code 编辑器下使用 **attach** 模式
 
 launch.json
 ```json
@@ -27,4 +27,3 @@ launch.json
 }
 
 ```
-
