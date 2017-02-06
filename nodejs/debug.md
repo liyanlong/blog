@@ -1,7 +1,10 @@
 # Node Debug
 
 ## VsCode
-1. 在visual studio code 编辑器下使用 **attach** 模式
+- 使用 **attach** 模式
+- 使用 **launch** 模式
+
+### **attach** 模式
 
 launch.json
 ```json
@@ -42,4 +45,4 @@ package.json
 npm run debug
 ```
 
-2. 在 visual studio code 使用launch模式
+### launch模式
