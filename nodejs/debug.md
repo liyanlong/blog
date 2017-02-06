@@ -45,7 +45,9 @@ package.json
 npm run debug
 ```
 
-### launch模式
+### launch模式 
+> 更多关于vscode的 node debug 内容，[点击查看](https://code.visualstudio.com/docs/editor/node-debugging)
+
 ```json
 {
     "version": "0.2.0",
