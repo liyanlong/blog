@@ -60,3 +60,8 @@ npm run debug
     ]
 }
 ```
+实际上 launch 模式相当于 attach模式, 只不过默认指定了 port
+```
+node --debug-brk=3888 --nolazy app.js 
+Debugger listening on [::]:3888
+```
